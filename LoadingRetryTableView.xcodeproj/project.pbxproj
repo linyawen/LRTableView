@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77FC00031C0E145800161B42 /* UICollectionView+LoadingRetry.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FC00021C0E145800161B42 /* UICollectionView+LoadingRetry.m */; };
+		77FCFFCF1C0DF7FB00161B42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FCFFCE1C0DF7FB00161B42 /* main.m */; };
+		77FCFFD21C0DF7FB00161B42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FCFFD11C0DF7FB00161B42 /* AppDelegate.m */; };
+		77FCFFD51C0DF7FB00161B42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FCFFD41C0DF7FB00161B42 /* ViewController.m */; };
+		77FCFFD81C0DF7FB00161B42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77FCFFD61C0DF7FB00161B42 /* Main.storyboard */; };
+		77FCFFDA1C0DF7FB00161B42 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77FCFFD91C0DF7FB00161B42 /* Images.xcassets */; };
+		77FCFFDD1C0DF7FB00161B42 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77FCFFDB1C0DF7FB00161B42 /* LaunchScreen.xib */; };
+		77FCFFE91C0DF7FB00161B42 /* LoadingRetryTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FCFFE81C0DF7FB00161B42 /* LoadingRetryTableViewTests.m */; };
+		77FCFFF51C0DFBA000161B42 /* UITableView+LoadingRetry.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FCFFF41C0DFBA000161B42 /* UITableView+LoadingRetry.m */; };
+		77FCFFF71C0DFF0000161B42 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77FCFFF61C0DFF0000161B42 /* LoadingView.xib */; };
+		77FCFFF91C0DFFEA00161B42 /* RetryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77FCFFF81C0DFFEA00161B42 /* RetryView.xib */; };
+		77FCFFFC1C0E01AB00161B42 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FCFFFB1C0E01AB00161B42 /* LoadingView.m */; };
+		77FCFFFF1C0E086900161B42 /* RetryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FCFFFE1C0E086900161B42 /* RetryView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77FCFFE31C0DF7FB00161B42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77FCFFC11C0DF7FB00161B42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77FCFFC81C0DF7FB00161B42;
+			remoteInfo = LoadingRetryTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		77FC00001C0E0FF600161B42 /* LoadingRetryAble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingRetryAble.h; sourceTree = "<group>"; };
+		77FC00011C0E145800161B42 /* UICollectionView+LoadingRetry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+LoadingRetry.h"; sourceTree = "<group>"; };
+		77FC00021C0E145800161B42 /* UICollectionView+LoadingRetry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+LoadingRetry.m"; sourceTree = "<group>"; };
+		77FCFFC91C0DF7FB00161B42 /* LoadingRetryTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoadingRetryTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77FCFFCD1C0DF7FB00161B42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77FCFFCE1C0DF7FB00161B42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77FCFFD01C0DF7FB00161B42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		77FCFFD11C0DF7FB00161B42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		77FCFFD31C0DF7FB00161B42 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		77FCFFD41C0DF7FB00161B42 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		77FCFFD71C0DF7FB00161B42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77FCFFD91C0DF7FB00161B42 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		77FCFFDC1C0DF7FB00161B42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		77FCFFE21C0DF7FB00161B42 /* LoadingRetryTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoadingRetryTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77FCFFE71C0DF7FB00161B42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77FCFFE81C0DF7FB00161B42 /* LoadingRetryTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadingRetryTableViewTests.m; sourceTree = "<group>"; };
+		77FCFFF31C0DFBA000161B42 /* UITableView+LoadingRetry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+LoadingRetry.h"; sourceTree = "<group>"; };
+		77FCFFF41C0DFBA000161B42 /* UITableView+LoadingRetry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+LoadingRetry.m"; sourceTree = "<group>"; };
+		77FCFFF61C0DFF0000161B42 /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		77FCFFF81C0DFFEA00161B42 /* RetryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RetryView.xib; sourceTree = "<group>"; };
+		77FCFFFA1C0E01AB00161B42 /* LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoadingView.h; path = LoadingRetryTableView/LoadingView.h; sourceTree = SOURCE_ROOT; };
+		77FCFFFB1C0E01AB00161B42 /* LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoadingView.m; path = LoadingRetryTableView/LoadingView.m; sourceTree = SOURCE_ROOT; };
+		77FCFFFD1C0E086900161B42 /* RetryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RetryView.h; sourceTree = "<group>"; };
+		77FCFFFE1C0E086900161B42 /* RetryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RetryView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77FCFFC61C0DF7FB00161B42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77FCFFDF1C0DF7FB00161B42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77FCFFC01C0DF7FB00161B42 = {
+			isa = PBXGroup;
+			children = (
+				77FCFFCB1C0DF7FB00161B42 /* LoadingRetryTableView */,
+				77FCFFE51C0DF7FB00161B42 /* LoadingRetryTableViewTests */,
+				77FCFFCA1C0DF7FB00161B42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77FCFFCA1C0DF7FB00161B42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77FCFFC91C0DF7FB00161B42 /* LoadingRetryTableView.app */,
+				77FCFFE21C0DF7FB00161B42 /* LoadingRetryTableViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77FCFFCB1C0DF7FB00161B42 /* LoadingRetryTableView */ = {
+			isa = PBXGroup;
+			children = (
+				77FCFFF21C0DF8AB00161B42 /* LRTableView */,
+				77FCFFD01C0DF7FB00161B42 /* AppDelegate.h */,
+				77FCFFD11C0DF7FB00161B42 /* AppDelegate.m */,
+				77FCFFD31C0DF7FB00161B42 /* ViewController.h */,
+				77FCFFD41C0DF7FB00161B42 /* ViewController.m */,
+				77FCFFD61C0DF7FB00161B42 /* Main.storyboard */,
+				77FCFFD91C0DF7FB00161B42 /* Images.xcassets */,
+				77FCFFDB1C0DF7FB00161B42 /* LaunchScreen.xib */,
+				77FCFFCC1C0DF7FB00161B42 /* Supporting Files */,
+			);
+			path = LoadingRetryTableView;
+			sourceTree = "<group>";
+		};
+		77FCFFCC1C0DF7FB00161B42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77FCFFCD1C0DF7FB00161B42 /* Info.plist */,
+				77FCFFCE1C0DF7FB00161B42 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77FCFFE51C0DF7FB00161B42 /* LoadingRetryTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				77FCFFE81C0DF7FB00161B42 /* LoadingRetryTableViewTests.m */,
+				77FCFFE61C0DF7FB00161B42 /* Supporting Files */,
+			);
+			path = LoadingRetryTableViewTests;
+			sourceTree = "<group>";
+		};
+		77FCFFE61C0DF7FB00161B42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77FCFFE71C0DF7FB00161B42 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77FCFFF21C0DF8AB00161B42 /* LRTableView */ = {
+			isa = PBXGroup;
+			children = (
+				77FC00001C0E0FF600161B42 /* LoadingRetryAble.h */,
+				77FCFFF31C0DFBA000161B42 /* UITableView+LoadingRetry.h */,
+				77FCFFF41C0DFBA000161B42 /* UITableView+LoadingRetry.m */,
+				77FC00011C0E145800161B42 /* UICollectionView+LoadingRetry.h */,
+				77FC00021C0E145800161B42 /* UICollectionView+LoadingRetry.m */,
+				77FCFFF61C0DFF0000161B42 /* LoadingView.xib */,
+				77FCFFFA1C0E01AB00161B42 /* LoadingView.h */,
+				77FCFFFB1C0E01AB00161B42 /* LoadingView.m */,
+				77FCFFF81C0DFFEA00161B42 /* RetryView.xib */,
+				77FCFFFD1C0E086900161B42 /* RetryView.h */,
+				77FCFFFE1C0E086900161B42 /* RetryView.m */,
+			);
+			path = LRTableView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77FCFFC81C0DF7FB00161B42 /* LoadingRetryTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77FCFFEC1C0DF7FB00161B42 /* Build configuration list for PBXNativeTarget "LoadingRetryTableView" */;
+			buildPhases = (
+				77FCFFC51C0DF7FB00161B42 /* Sources */,
+				77FCFFC61C0DF7FB00161B42 /* Frameworks */,
+				77FCFFC71C0DF7FB00161B42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoadingRetryTableView;
+			productName = LoadingRetryTableView;
+			productReference = 77FCFFC91C0DF7FB00161B42 /* LoadingRetryTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77FCFFE11C0DF7FB00161B42 /* LoadingRetryTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77FCFFEF1C0DF7FB00161B42 /* Build configuration list for PBXNativeTarget "LoadingRetryTableViewTests" */;
+			buildPhases = (
+				77FCFFDE1C0DF7FB00161B42 /* Sources */,
+				77FCFFDF1C0DF7FB00161B42 /* Frameworks */,
+				77FCFFE01C0DF7FB00161B42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77FCFFE41C0DF7FB00161B42 /* PBXTargetDependency */,
+			);
+			name = LoadingRetryTableViewTests;
+			productName = LoadingRetryTableViewTests;
+			productReference = 77FCFFE21C0DF7FB00161B42 /* LoadingRetryTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77FCFFC11C0DF7FB00161B42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = ND_XM_LinYaWen;
+				TargetAttributes = {
+					77FCFFC81C0DF7FB00161B42 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					77FCFFE11C0DF7FB00161B42 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 77FCFFC81C0DF7FB00161B42;
+					};
+				};
+			};
+			buildConfigurationList = 77FCFFC41C0DF7FB00161B42 /* Build configuration list for PBXProject "LoadingRetryTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77FCFFC01C0DF7FB00161B42;
+			productRefGroup = 77FCFFCA1C0DF7FB00161B42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77FCFFC81C0DF7FB00161B42 /* LoadingRetryTableView */,
+				77FCFFE11C0DF7FB00161B42 /* LoadingRetryTableViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77FCFFC71C0DF7FB00161B42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77FCFFD81C0DF7FB00161B42 /* Main.storyboard in Resources */,
+				77FCFFF71C0DFF0000161B42 /* LoadingView.xib in Resources */,
+				77FCFFF91C0DFFEA00161B42 /* RetryView.xib in Resources */,
+				77FCFFDD1C0DF7FB00161B42 /* LaunchScreen.xib in Resources */,
+				77FCFFDA1C0DF7FB00161B42 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77FCFFE01C0DF7FB00161B42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77FCFFC51C0DF7FB00161B42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77FCFFD51C0DF7FB00161B42 /* ViewController.m in Sources */,
+				77FCFFFF1C0E086900161B42 /* RetryView.m in Sources */,
+				77FCFFFC1C0E01AB00161B42 /* LoadingView.m in Sources */,
+				77FCFFF51C0DFBA000161B42 /* UITableView+LoadingRetry.m in Sources */,
+				77FCFFD21C0DF7FB00161B42 /* AppDelegate.m in Sources */,
+				77FC00031C0E145800161B42 /* UICollectionView+LoadingRetry.m in Sources */,
+				77FCFFCF1C0DF7FB00161B42 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77FCFFDE1C0DF7FB00161B42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77FCFFE91C0DF7FB00161B42 /* LoadingRetryTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77FCFFE41C0DF7FB00161B42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77FCFFC81C0DF7FB00161B42 /* LoadingRetryTableView */;
+			targetProxy = 77FCFFE31C0DF7FB00161B42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		77FCFFD61C0DF7FB00161B42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77FCFFD71C0DF7FB00161B42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77FCFFDB1C0DF7FB00161B42 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77FCFFDC1C0DF7FB00161B42 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77FCFFEA1C0DF7FB00161B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77FCFFEB1C0DF7FB00161B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77FCFFED1C0DF7FB00161B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoadingRetryTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		77FCFFEE1C0DF7FB00161B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoadingRetryTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		77FCFFF01C0DF7FB00161B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LoadingRetryTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoadingRetryTableView.app/LoadingRetryTableView";
+			};
+			name = Debug;
+		};
+		77FCFFF11C0DF7FB00161B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LoadingRetryTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoadingRetryTableView.app/LoadingRetryTableView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77FCFFC41C0DF7FB00161B42 /* Build configuration list for PBXProject "LoadingRetryTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77FCFFEA1C0DF7FB00161B42 /* Debug */,
+				77FCFFEB1C0DF7FB00161B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77FCFFEC1C0DF7FB00161B42 /* Build configuration list for PBXNativeTarget "LoadingRetryTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77FCFFED1C0DF7FB00161B42 /* Debug */,
+				77FCFFEE1C0DF7FB00161B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		77FCFFEF1C0DF7FB00161B42 /* Build configuration list for PBXNativeTarget "LoadingRetryTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77FCFFF01C0DF7FB00161B42 /* Debug */,
+				77FCFFF11C0DF7FB00161B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77FCFFC11C0DF7FB00161B42 /* Project object */;
+}
